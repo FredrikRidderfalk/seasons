@@ -90,7 +90,7 @@ I want to spend more time learning about accessibility and implementing addition
 
 - Website - [Coming soon!](#)
 - GitHub - [@FredrikRidderfalk](https://github.com/FredrikRidderfalk)
-- Twitter - [@yourusername](https://twitter.com/Ridderfalk)
+- Twitter - [@Ridderfalk](https://twitter.com/Ridderfalk)
 
 ## Acknowledgments
 
