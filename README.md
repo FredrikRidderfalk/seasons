@@ -14,57 +14,84 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm test`
+# Personal portfolio featuring my updated collection of projects.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Table of contents
 
-### `npm run build`
+- [Overview](#overview)
+  - [The goal](#the-goal)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Overview
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### The goal
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Users should be able to:
 
-### `npm run eject`
+- [x] View the optimal layout for the site depending on their device's screen size
+- [x] Easily navigate through the site's links and buttons without mouse or trackpad using a clearly visible :focus outline.
+- [x] Access all aspects of the site regardless of browser.
+- [x] Navigate through the site by a sticky hamburger menu.
+- [x] Find out about my services.
+- [x] Find out about me.
+- [x] Navigate through a portfolio of my work.
+- [x] Find contact information.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Screenshot
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![](img/screenshot.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## My process
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- I organize my html classes using double underscore and double dash to improve readability. This can make it easier to keep track of parent and children elements when working with the css.
+- I have added extra padding for links and buttons with small hitboxes to facilitate higher accuracy when using a finger to navigate on a small screen.
+- I maintained high contrast ratios (13.1:1, 7.74:1) throughout the website, passing all WCAG tests. Tested using [WebAIM](https://webaim.org/resources/contrastchecker/?fcolor=000000&bcolor=16DFBD).
 
-## Learn More
+### Built with
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Semantic HTML5 markup
+- CSS
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- JavaScript
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I learned
 
-### Code Splitting
+- WCAG 2.0 level AA requires a contrast ratio of at least 4.5:1 for normal text and 3:1 for large text. WCAG 2.1 requires a contrast ratio of at least 3:1 for graphics and user interface components (such as form input borders). WCAG Level AAA requires a contrast ratio of at least 7:1 for normal text and 4.5:1 for large text. Large text is defined as 14 point (typically 18.66px) and bold or larger, or 18 point (typically 24px) or larger.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- How I can work with the css pseudo-elements ::before and ::after. They don't need to be written with double ::, one : will still run, but standard practice nowadays is to use the double ::.
 
-### Analyzing the Bundle Size
+- Instead of trying to make most animations using the animation property and @keyframes, I used the transition property which worked much better in several cases.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- How to code a typewriter carousel in JS.
 
-### Making a Progressive Web App
+- I learned how to use CSS grid to produce alternating sections of images and text.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- I learned how to make a typing-animation using pure CSS.
 
-### Advanced Configuration
+### Continued development
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+I want to spend more time learning about accessibility and implementing additional measures for an inclusive experience. I look forward to finding new uses for the pseudo-elements ::before and ::after. Next step in development is to deploy the website.
 
-### Deployment
+### Useful resources
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- [Nu Html Checker](https://validator.w3.org/nu/) - I ran my index.html through this conformance checker to catch any unintended mistakes.
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - I ran my style.css through this conformance checker to catch any unintended mistakes.
 
-### `npm run build` fails to minify
+## Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Website - [Coming soon!](#)
+- GitHub - [@FredrikRidderfalk](https://github.com/FredrikRidderfalk)
+- Twitter - [@yourusername](https://twitter.com/Ridderfalk)
+
+## Acknowledgments
+
+My acknowledgements go out to Stephen Grider and his React course over on Udemy. Enrolling in your course made this project possible. I went from knowing no React to being able to build this project.
