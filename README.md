@@ -1,8 +1,6 @@
-# First project using Create React App. An app that can tell the current season of the user.
+# An app that can tell the current season of the user.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-# Personal portfolio featuring my updated collection of projects.
 
 ## Table of contents
 
